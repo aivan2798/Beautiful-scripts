@@ -2,7 +2,7 @@
 #include<math.h>
 using namespace std;
 
-
+//Calculate the modulus
 int mod(int x,int y)
 {
  
@@ -10,12 +10,14 @@ int mod(int x,int y)
 
 }
 
+
 int modx(int li,int d1,int d2,int w)
 {
   
   return ((li+(d1*w))*(d2-1))/d2;
 }
 
+//Draft
 int modxx(int li,int d1,int d2,int w)
 {
   
@@ -23,6 +25,7 @@ int modxx(int li,int d1,int d2,int w)
   
 }
 
+//Find the next number after li divisible by both d1 and d2
 int gcm_lim(int li,int d1,int d2)
 {
   int p1=pow(d2,2)*li;
